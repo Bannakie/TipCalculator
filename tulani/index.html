@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurant tip calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Restaurant Tip calculator</h1>
+    <div>
+        <form>
+          <!--scrolling thing for choosable inputs+ option-->
+            <label for="order">Order Total $: </label>
+            <input type="text" id="order" name="order">
+            <br>
+            <label for="guests">Number of Guests: </label>
+            <input type="text" id="guests" name="guests">
+            <br>
+            <br>
+
+            <p>How did you find your service? 5 is highest quality</p>
+            <input type="radio" id="bad" value="bad" name="rating">
+            <label for="bad">1</label>
+            <input type="radio" id="ok" value="ok" name="rating">
+            <label for="ok">2</label>
+            <input type="radio" id="good" value="good" name="rating">
+            <label for="good">3</label>
+            <input type="radio" id="great" value="great" name="rating">
+            <label for="great">4</label>
+            <input type="radio" id="excellent" value="excellent" name="rating" selected>
+            <label for="excellent">5</label>
+       <br>
+            <input type=submit value="submit" onclick= submitInfo()>
+        </form>
+      </div>
+      <id="final" h2> </h2>
+    <script src= "app.js"></script>
+</body>
+</html>
