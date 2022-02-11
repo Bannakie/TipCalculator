@@ -1,1 +1,23 @@
-ECHO is on.
+body{
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 
+    'Times New Roman', serif;
+    background: conic-gradient(at 125% 50%, #b78cf7, #ff7c94,#ffcf0d, #ff7c94, #b78cf7);
+}
+
+.container{
+    border: 1px solid black;
+
+    width:95%;
+    height: 100vh;
+    margin: 100px auto;
+    background: #f7f7f7;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
