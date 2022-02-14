@@ -8,7 +8,7 @@ calculate = () => {
     const tip = ((amount.value * quality.value)/ (guests.value)).toFixed(2);
     amount.value ="";
     guests.value ="";
-    quality.value = "";
+    quality.value ="";
 
 if (tip === "NaN") {
     tipAmount.textContent = "Tip $0 each";
